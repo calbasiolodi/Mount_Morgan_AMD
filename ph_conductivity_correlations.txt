@@ -1,0 +1,428 @@
+===============================================================================================
+HYDROLOGICAL & WATER QUALITY CORRELATION REPORT: pH & ELECTRICAL CONDUCTIVITY
+Metrics: Pearson Correlation (Linear) & Spearman Rank Correlation (Monotonic)
+Dataset: merged_locations_monthly_stacked.csv
+Period: 1992-01-01 to 2026-09-01 (Monthly Data)
+===============================================================================================
+
+
+###############################################################################################
+LOCATION: Dee River at Kenbula (Station Code: 130355A)
+Total Observations: 417 monthly records
+###############################################################################################
+
+------------------------------------------------------------------------------------------
+1. DIRECT RELATIONSHIP: pH vs. ELECTRICAL CONDUCTIVITY
+------------------------------------------------------------------------------------------
+Target Variable 1              Target Variable 2              Pearson r   Spearman rho      N
+------------------------------------------------------------------------------------------
+E Conduct. (us/cm)_Mean        pH (pH units)_Mean               -0.3346        -0.3097    272
+E Conduct. (us/cm)_Mean        pH (pH units)_Min                -0.1771        -0.1626    272
+E Conduct. (us/cm)_Mean        pH (pH units)_Max                -0.4215        -0.4073    272
+E Conduct. (us/cm)_Min         pH (pH units)_Mean               -0.4226        -0.4154    272
+E Conduct. (us/cm)_Min         pH (pH units)_Min                -0.2224        -0.2240    272
+E Conduct. (us/cm)_Min         pH (pH units)_Max                -0.5347        -0.5122    272
+E Conduct. (us/cm)_Max         pH (pH units)_Mean               -0.1977        -0.1956    272
+E Conduct. (us/cm)_Max         pH (pH units)_Min                -0.1483        -0.1428    272
+E Conduct. (us/cm)_Max         pH (pH units)_Max                -0.2274        -0.2526    272
+
+------------------------------------------------------------------------------------------
+2. CORRELATIONS WITH OTHER VARIABLES (Physical Measurements)
+------------------------------------------------------------------------------------------
+
+[Target: E Conduct. (us/cm)_Mean]
+Other Variable                       Pearson r   Spearman rho    Sample Size (N)
+--------------------------------------------------------------------------------
+Level (Metres)_Mean                    -0.5317        -0.4654                342
+Level (Metres)_Min                     -0.4891        -0.4752                342
+Level (Metres)_Max                     -0.4149        -0.3686                342
+Volume ML_Total                        -0.3288        -0.4028                343
+Discharge (ML/day)_Mean                -0.3274        -0.4034                343
+Discharge (Cumecs)_Mean                -0.3273        -0.3990                343
+Discharge (Cumecs)_Min                 -0.3065        -0.4172                343
+Discharge (ML/day)_Min                 -0.3050        -0.4176                343
+Rainfall (mm)_Total                    -0.2837        -0.2467                332
+Discharge (Cumecs)_Max                 -0.2563        -0.3686                343
+Discharge (ML/day)_Max                 -0.2563        -0.3683                343
+Water Temp (Deg. C)_Min                -0.1031        -0.1060                342
+Water Temp (Deg. C)_Mean               -0.0463        -0.0355                342
+Water Temp (Deg. C)_Max                -0.0223        -0.0031                342
+
+[Target: E Conduct. (us/cm)_Min]
+Other Variable                       Pearson r   Spearman rho    Sample Size (N)
+--------------------------------------------------------------------------------
+Level (Metres)_Mean                    -0.5820        -0.6180                342
+Level (Metres)_Max                     -0.5514        -0.5828                342
+Rainfall (mm)_Total                    -0.4770        -0.4307                332
+Level (Metres)_Min                     -0.4673        -0.5213                342
+Volume ML_Total                        -0.3951        -0.6153                343
+Discharge (ML/day)_Mean                -0.3924        -0.6159                343
+Discharge (Cumecs)_Mean                -0.3924        -0.6130                343
+Discharge (Cumecs)_Max                 -0.3231        -0.5834                343
+Discharge (ML/day)_Max                 -0.3231        -0.5832                343
+Discharge (Cumecs)_Min                 -0.3142        -0.4956                343
+Discharge (ML/day)_Min                 -0.3124        -0.4957                343
+Water Temp (Deg. C)_Min                -0.2055        -0.2120                342
+Water Temp (Deg. C)_Mean               -0.1700        -0.1758                342
+Water Temp (Deg. C)_Max                -0.1592        -0.1657                342
+
+[Target: E Conduct. (us/cm)_Max]
+Other Variable                       Pearson r   Spearman rho    Sample Size (N)
+--------------------------------------------------------------------------------
+Level (Metres)_Min                     -0.4679        -0.3752                342
+Level (Metres)_Mean                    -0.3781        -0.2584                342
+Discharge (Cumecs)_Min                 -0.2124        -0.2876                343
+Discharge (ML/day)_Min                 -0.2114        -0.2880                343
+Level (Metres)_Max                     -0.1639        -0.1352                342
+Volume ML_Total                        -0.1258        -0.1604                343
+Discharge (ML/day)_Mean                -0.1217        -0.1608                343
+Discharge (Cumecs)_Mean                -0.1217        -0.1554                343
+Water Temp (Deg. C)_Max                +0.1097        +0.1207                342
+Water Temp (Deg. C)_Mean               +0.0757        +0.0807                342
+Discharge (Cumecs)_Max                 -0.0590        -0.1340                343
+Discharge (ML/day)_Max                 -0.0590        -0.1337                343
+Rainfall (mm)_Total                    -0.0322        -0.0628                332
+Water Temp (Deg. C)_Min                +0.0111        +0.0023                342
+
+[Target: pH (pH units)_Mean]
+Other Variable                       Pearson r   Spearman rho    Sample Size (N)
+--------------------------------------------------------------------------------
+Level (Metres)_Mean                    +0.5223        +0.6159                289
+Level (Metres)_Max                     +0.3979        +0.3684                289
+Level (Metres)_Min                     +0.3809        +0.5948                289
+Discharge (Cumecs)_Min                 +0.3281        +0.6228                291
+Discharge (ML/day)_Min                 +0.3257        +0.6204                291
+Discharge (Cumecs)_Max                 +0.2231        +0.3698                291
+Discharge (ML/day)_Max                 +0.2231        +0.3697                291
+Rainfall (mm)_Total                    +0.2219        +0.1713                280
+Discharge (ML/day)_Mean                +0.2158        +0.5446                291
+Discharge (Cumecs)_Mean                +0.2158        +0.5435                291
+Volume ML_Total                        +0.2122        +0.5448                291
+Water Temp (Deg. C)_Max                +0.0837        +0.0713                286
+Water Temp (Deg. C)_Mean               +0.0080        -0.0209                286
+Water Temp (Deg. C)_Min                -0.0051        -0.0345                286
+
+[Target: pH (pH units)_Min]
+Other Variable                       Pearson r   Spearman rho    Sample Size (N)
+--------------------------------------------------------------------------------
+Level (Metres)_Mean                    +0.3794        +0.4652                289
+Level (Metres)_Min                     +0.3508        +0.5167                289
+Discharge (Cumecs)_Min                 +0.2751        +0.5417                291
+Discharge (ML/day)_Min                 +0.2728        +0.5390                291
+Level (Metres)_Max                     +0.1453        +0.1845                289
+Water Temp (Deg. C)_Min                -0.1268        -0.1113                286
+Water Temp (Deg. C)_Mean               -0.1046        -0.0960                286
+Discharge (ML/day)_Mean                +0.0845        +0.3782                291
+Discharge (Cumecs)_Mean                +0.0845        +0.3767                291
+Volume ML_Total                        +0.0836        +0.3787                291
+Discharge (Cumecs)_Max                 +0.0713        +0.1875                291
+Discharge (ML/day)_Max                 +0.0713        +0.1874                291
+Water Temp (Deg. C)_Max                -0.0187        +0.0043                286
+Rainfall (mm)_Total                    -0.0032        -0.0052                280
+
+[Target: pH (pH units)_Max]
+Other Variable                       Pearson r   Spearman rho    Sample Size (N)
+--------------------------------------------------------------------------------
+Level (Metres)_Max                     +0.5859        +0.4137                289
+Level (Metres)_Mean                    +0.5644        +0.5870                289
+Discharge (ML/day)_Mean                +0.3844        +0.5432                291
+Discharge (Cumecs)_Mean                +0.3843        +0.5423                291
+Discharge (Cumecs)_Max                 +0.3811        +0.4157                291
+Discharge (ML/day)_Max                 +0.3811        +0.4156                291
+Volume ML_Total                        +0.3802        +0.5432                291
+Discharge (Cumecs)_Min                 +0.3736        +0.5690                291
+Discharge (ML/day)_Min                 +0.3719        +0.5684                291
+Rainfall (mm)_Total                    +0.3611        +0.2361                280
+Level (Metres)_Min                     +0.3242        +0.5285                289
+Water Temp (Deg. C)_Max                +0.1648        +0.1285                286
+Water Temp (Deg. C)_Min                +0.1145        +0.0571                286
+Water Temp (Deg. C)_Mean               +0.1142        +0.0661                286
+
+------------------------------------------------------------------------------------------
+3. COMPACT SUMMARY: EC Mean & pH Mean vs. Key Environmental Variables
+------------------------------------------------------------------------------------------
+Environmental Variable       |  EC Pearson  EC Spearman (N) |  pH Pearson  pH Spearman (N)
+------------------------------------------------------------------------------------------
+Rainfall (mm)_Total          |      -0.284       -0.247 (332) |      +0.222       +0.171 (280)
+Level (Metres)_Mean          |      -0.532       -0.465 (342) |      +0.522       +0.616 (289)
+Discharge (Cumecs)_Mean      |      -0.327       -0.399 (343) |      +0.216       +0.543 (291)
+Discharge (ML/day)_Mean      |      -0.327       -0.403 (343) |      +0.216       +0.545 (291)
+Volume ML_Total              |      -0.329       -0.403 (343) |      +0.212       +0.545 (291)
+Water Temp (Deg. C)_Mean     |      -0.046       -0.036 (342) |      +0.008       -0.021 (286)
+
+------------------------------------------------------------------------------------------
+4. COMPLETE PEARSON CORRELATION MATRIX (All Columns)
+------------------------------------------------------------------------------------------
+                                  E Conduct. (us/cm)_Mean  E Conduct. (us/cm)_Mean_Quality  E Conduct. (us/cm)_Min  E Conduct. (us/cm)_Min_Quality  E Conduct. (us/cm)_Max  E Conduct. (us/cm)_Max_Quality  pH (pH units)_Mean  pH (pH units)_Mean_Quality  pH (pH units)_Min  pH (pH units)_Min_Quality  pH (pH units)_Max  pH (pH units)_Max_Quality
+Rainfall (mm)_Total                               -0.2837                           0.0545                 -0.4770                          0.0545                 -0.0322                          0.0545              0.2219                     -0.0853            -0.0032                    -0.0853             0.3611                    -0.0853
+Rainfall (mm)_Total_Quality                       -0.0369                          -0.0045                 -0.1087                         -0.0045                 -0.0241                         -0.0045              0.3264                      0.1803             0.2784                     0.1803             0.2989                     0.1803
+Level (Metres)_Mean                               -0.5317                          -0.2275                 -0.5820                         -0.2275                 -0.3781                         -0.2275              0.5223                     -0.2732             0.3794                    -0.2732             0.5644                    -0.2732
+Level (Metres)_Mean_Quality                        0.0975                           0.2683                  0.0989                          0.2683                  0.0920                          0.2683             -0.1487                      0.1611            -0.1620                     0.1611            -0.1266                     0.1611
+Level (Metres)_Min                                -0.4891                          -0.2869                 -0.4673                         -0.2869                 -0.4679                         -0.2869              0.3809                     -0.2783             0.3508                    -0.2783             0.3242                    -0.2783
+Level (Metres)_Min_Quality                         0.0975                           0.2683                  0.0989                          0.2683                  0.0920                          0.2683             -0.1487                      0.1611            -0.1620                     0.1611            -0.1266                     0.1611
+Level (Metres)_Max                                -0.4149                           0.0262                 -0.5514                          0.0262                 -0.1639                          0.0262              0.3979                     -0.1147             0.1453                    -0.1147             0.5859                    -0.1147
+Level (Metres)_Max_Quality                         0.0975                           0.2683                  0.0989                          0.2683                  0.0920                          0.2683             -0.1487                      0.1611            -0.1620                     0.1611            -0.1266                     0.1611
+Discharge (Cumecs)_Mean                           -0.3273                           0.0464                 -0.3924                          0.0464                 -0.1217                          0.0464              0.2158                     -0.0905             0.0845                    -0.0905             0.3843                    -0.0905
+Discharge (Cumecs)_Mean_Quality                    0.0066                           0.2168                 -0.0397                          0.2168                  0.0789                          0.2168             -0.0559                      0.1051            -0.1310                     0.1051             0.0154                     0.1051
+Discharge (Cumecs)_Min                            -0.3065                          -0.0445                 -0.3142                         -0.0445                 -0.2124                         -0.0445              0.3281                     -0.2013             0.2751                    -0.2013             0.3736                    -0.2013
+Discharge (Cumecs)_Min_Quality                     0.0066                           0.2168                 -0.0397                          0.2168                  0.0789                          0.2168             -0.0559                      0.1051            -0.1310                     0.1051             0.0154                     0.1051
+Discharge (Cumecs)_Max                            -0.2563                           0.0758                 -0.3231                          0.0758                 -0.0590                          0.0758              0.2231                     -0.0191             0.0713                    -0.0191             0.3811                    -0.0191
+Discharge (Cumecs)_Max_Quality                     0.0066                           0.2168                 -0.0397                          0.2168                  0.0789                          0.2168             -0.0559                      0.1051            -0.1310                     0.1051             0.0154                     0.1051
+Discharge (ML/day)_Mean                           -0.3274                           0.0464                 -0.3924                          0.0464                 -0.1217                          0.0464              0.2158                     -0.0905             0.0845                    -0.0905             0.3844                    -0.0905
+Discharge (ML/day)_Mean_Quality                    0.0066                           0.2168                 -0.0397                          0.2168                  0.0789                          0.2168             -0.0559                      0.1051            -0.1310                     0.1051             0.0154                     0.1051
+Discharge (ML/day)_Min                            -0.3050                          -0.0428                 -0.3124                         -0.0428                 -0.2114                         -0.0428              0.3257                     -0.1999             0.2728                    -0.1999             0.3719                    -0.1999
+Discharge (ML/day)_Min_Quality                     0.0066                           0.2168                 -0.0397                          0.2168                  0.0789                          0.2168             -0.0559                      0.1051            -0.1310                     0.1051             0.0154                     0.1051
+Discharge (ML/day)_Max                            -0.2563                           0.0758                 -0.3231                          0.0758                 -0.0590                          0.0758              0.2231                     -0.0191             0.0713                    -0.0191             0.3811                    -0.0191
+Discharge (ML/day)_Max_Quality                     0.0066                           0.2168                 -0.0397                          0.2168                  0.0789                          0.2168             -0.0559                      0.1051            -0.1310                     0.1051             0.0154                     0.1051
+Volume ML_Total                                   -0.3288                           0.0457                 -0.3951                          0.0457                 -0.1258                          0.0457              0.2122                     -0.0917             0.0836                    -0.0917             0.3802                    -0.0917
+Volume ML_Total_Quality                            0.0066                           0.2168                 -0.0397                          0.2168                  0.0789                          0.2168             -0.0559                      0.1051            -0.1310                     0.1051             0.0154                     0.1051
+Water Temp (Deg. C)_Mean                          -0.0463                          -0.0040                 -0.1700                         -0.0040                  0.0757                         -0.0040              0.0080                     -0.0244            -0.1046                    -0.0244             0.1142                    -0.0244
+Water Temp (Deg. C)_Mean_Quality                  -0.0761                           0.8742                  0.0269                          0.8742                 -0.1160                          0.8742             -0.5168                      0.4642            -0.5560                     0.4642            -0.3501                     0.4642
+Water Temp (Deg. C)_Min                           -0.1031                           0.0130                 -0.2055                          0.0130                  0.0111                          0.0130             -0.0051                     -0.0374            -0.1268                    -0.0374             0.1145                    -0.0374
+Water Temp (Deg. C)_Min_Quality                   -0.0761                           0.8742                  0.0269                          0.8742                 -0.1160                          0.8742             -0.5168                      0.4642            -0.5560                     0.4642            -0.3501                     0.4642
+Water Temp (Deg. C)_Max                           -0.0223                          -0.0117                 -0.1592                         -0.0117                  0.1097                         -0.0117              0.0837                     -0.0095            -0.0187                    -0.0095             0.1648                    -0.0095
+Water Temp (Deg. C)_Max_Quality                   -0.0761                           0.8742                  0.0269                          0.8742                 -0.1160                          0.8742             -0.5168                      0.4642            -0.5560                     0.4642            -0.3501                     0.4642
+
+------------------------------------------------------------------------------------------
+5. COMPLETE SPEARMAN CORRELATION MATRIX (All Columns)
+------------------------------------------------------------------------------------------
+                                  E Conduct. (us/cm)_Mean  E Conduct. (us/cm)_Mean_Quality  E Conduct. (us/cm)_Min  E Conduct. (us/cm)_Min_Quality  E Conduct. (us/cm)_Max  E Conduct. (us/cm)_Max_Quality  pH (pH units)_Mean  pH (pH units)_Mean_Quality  pH (pH units)_Min  pH (pH units)_Min_Quality  pH (pH units)_Max  pH (pH units)_Max_Quality
+Rainfall (mm)_Total                               -0.2467                           0.0681                 -0.4307                          0.0681                 -0.0628                          0.0681              0.1713                     -0.0471            -0.0052                    -0.0471             0.2361                    -0.0471
+Rainfall (mm)_Total_Quality                        0.0233                          -0.2624                 -0.0630                         -0.2624                  0.0367                         -0.2624              0.4720                      0.1590             0.4513                     0.1590             0.3884                     0.1590
+Level (Metres)_Mean                               -0.4654                          -0.2501                 -0.6180                         -0.2501                 -0.2584                         -0.2501              0.6159                     -0.2572             0.4652                    -0.2572             0.5870                    -0.2572
+Level (Metres)_Mean_Quality                        0.0993                          -0.1579                  0.0054                         -0.1579                  0.1336                         -0.1579              0.3115                      0.0073             0.2898                     0.0073             0.2370                     0.0073
+Level (Metres)_Min                                -0.4752                          -0.2624                 -0.5213                         -0.2624                 -0.3752                         -0.2624              0.5948                     -0.2443             0.5167                    -0.2443             0.5285                    -0.2443
+Level (Metres)_Min_Quality                         0.0993                          -0.1579                  0.0054                         -0.1579                  0.1336                         -0.1579              0.3115                      0.0073             0.2898                     0.0073             0.2370                     0.0073
+Level (Metres)_Max                                -0.3686                          -0.0192                 -0.5828                         -0.0192                 -0.1352                         -0.0192              0.3684                     -0.1532             0.1845                    -0.1532             0.4137                    -0.1532
+Level (Metres)_Max_Quality                         0.0993                          -0.1579                  0.0054                         -0.1579                  0.1336                         -0.1579              0.3115                      0.0073             0.2898                     0.0073             0.2370                     0.0073
+Discharge (Cumecs)_Mean                           -0.3990                          -0.1810                 -0.6130                         -0.1810                 -0.1554                         -0.1810              0.5435                     -0.1957             0.3767                    -0.1957             0.5423                    -0.1957
+Discharge (Cumecs)_Mean_Quality                   -0.1235                           0.1614                 -0.2495                          0.1614                  0.0112                          0.1614              0.0644                      0.0075            -0.0870                     0.0075             0.1521                     0.0075
+Discharge (Cumecs)_Min                            -0.4172                          -0.2086                 -0.4956                         -0.2086                 -0.2876                         -0.2086              0.6228                     -0.2110             0.5417                    -0.2110             0.5690                    -0.2110
+Discharge (Cumecs)_Min_Quality                    -0.1235                           0.1614                 -0.2495                          0.1614                  0.0112                          0.1614              0.0644                      0.0075            -0.0870                     0.0075             0.1521                     0.0075
+Discharge (Cumecs)_Max                            -0.3686                          -0.0262                 -0.5834                         -0.0262                 -0.1340                         -0.0262              0.3698                     -0.1471             0.1875                    -0.1471             0.4157                    -0.1471
+Discharge (Cumecs)_Max_Quality                    -0.1235                           0.1614                 -0.2495                          0.1614                  0.0112                          0.1614              0.0644                      0.0075            -0.0870                     0.0075             0.1521                     0.0075
+Discharge (ML/day)_Mean                           -0.4034                          -0.1834                 -0.6159                         -0.1834                 -0.1608                         -0.1834              0.5446                     -0.1978             0.3782                    -0.1978             0.5432                    -0.1978
+Discharge (ML/day)_Mean_Quality                   -0.1235                           0.1614                 -0.2495                          0.1614                  0.0112                          0.1614              0.0644                      0.0075            -0.0870                     0.0075             0.1521                     0.0075
+Discharge (ML/day)_Min                            -0.4176                          -0.2077                 -0.4957                         -0.2077                 -0.2880                         -0.2077              0.6204                     -0.2120             0.5390                    -0.2120             0.5684                    -0.2120
+Discharge (ML/day)_Min_Quality                    -0.1235                           0.1614                 -0.2495                          0.1614                  0.0112                          0.1614              0.0644                      0.0075            -0.0870                     0.0075             0.1521                     0.0075
+Discharge (ML/day)_Max                            -0.3683                          -0.0260                 -0.5832                         -0.0260                 -0.1337                         -0.0260              0.3697                     -0.1472             0.1874                    -0.1472             0.4156                    -0.1472
+Discharge (ML/day)_Max_Quality                    -0.1235                           0.1614                 -0.2495                          0.1614                  0.0112                          0.1614              0.0644                      0.0075            -0.0870                     0.0075             0.1521                     0.0075
+Volume ML_Total                                   -0.4028                          -0.1840                 -0.6153                         -0.1840                 -0.1604                         -0.1840              0.5448                     -0.1980             0.3787                    -0.1980             0.5432                    -0.1980
+Volume ML_Total_Quality                           -0.1235                           0.1614                 -0.2495                          0.1614                  0.0112                          0.1614              0.0644                      0.0075            -0.0870                     0.0075             0.1521                     0.0075
+Water Temp (Deg. C)_Mean                          -0.0355                          -0.0054                 -0.1758                         -0.0054                  0.0807                         -0.0054             -0.0209                     -0.0360            -0.0960                    -0.0360             0.0661                    -0.0360
+Water Temp (Deg. C)_Mean_Quality                  -0.0308                           0.8022                  0.0894                          0.8022                 -0.0872                          0.8022             -0.5686                      0.4000            -0.5874                     0.4000            -0.4096                     0.4000
+Water Temp (Deg. C)_Min                           -0.1060                           0.0255                 -0.2120                          0.0255                  0.0023                          0.0255             -0.0345                     -0.0445            -0.1113                    -0.0445             0.0571                    -0.0445
+Water Temp (Deg. C)_Min_Quality                   -0.0308                           0.8022                  0.0894                          0.8022                 -0.0872                          0.8022             -0.5686                      0.4000            -0.5874                     0.4000            -0.4096                     0.4000
+Water Temp (Deg. C)_Max                           -0.0031                          -0.0218                 -0.1657                         -0.0218                  0.1207                         -0.0218              0.0713                     -0.0144             0.0043                    -0.0144             0.1285                    -0.0144
+Water Temp (Deg. C)_Max_Quality                   -0.0308                           0.8022                  0.0894                          0.8022                 -0.0872                          0.8022             -0.5686                      0.4000            -0.5874                     0.4000            -0.4096                     0.4000
+
+
+###############################################################################################
+LOCATION: Dee River at Wura (Station Code: 130335A)
+Total Observations: 417 monthly records
+###############################################################################################
+
+------------------------------------------------------------------------------------------
+1. DIRECT RELATIONSHIP: pH vs. ELECTRICAL CONDUCTIVITY
+------------------------------------------------------------------------------------------
+Target Variable 1              Target Variable 2              Pearson r   Spearman rho      N
+------------------------------------------------------------------------------------------
+E Conduct. (us/cm)_Mean        pH (pH units)_Mean               -0.1237        -0.1245    177
+E Conduct. (us/cm)_Mean        pH (pH units)_Min                -0.0469        -0.0874    177
+E Conduct. (us/cm)_Mean        pH (pH units)_Max                -0.1786        -0.1789    177
+E Conduct. (us/cm)_Min         pH (pH units)_Mean               +0.1133        +0.1334    177
+E Conduct. (us/cm)_Min         pH (pH units)_Min                +0.3281        +0.3046    177
+E Conduct. (us/cm)_Min         pH (pH units)_Max                -0.2479        -0.2006    177
+E Conduct. (us/cm)_Max         pH (pH units)_Mean               -0.2489        -0.2281    177
+E Conduct. (us/cm)_Max         pH (pH units)_Min                -0.3844        -0.3593    177
+E Conduct. (us/cm)_Max         pH (pH units)_Max                -0.0068        -0.0716    177
+
+------------------------------------------------------------------------------------------
+2. CORRELATIONS WITH OTHER VARIABLES (Physical Measurements)
+------------------------------------------------------------------------------------------
+
+[Target: E Conduct. (us/cm)_Mean]
+Other Variable                       Pearson r   Spearman rho    Sample Size (N)
+--------------------------------------------------------------------------------
+Level (Metres)_Min                     +0.3131        +0.2742                286
+Water Temp (Deg. C)_Min                +0.2486        +0.2057                288
+Level (Metres)_Mean                    +0.2184        +0.2143                286
+Water Temp (Deg. C)_Mean               +0.1624        +0.1575                288
+Discharge (ML/day)_Mean                -0.1175        -0.0352                294
+Discharge (Cumecs)_Mean                -0.1175        -0.0328                294
+Volume ML_Total                        -0.1157        -0.0349                294
+Discharge (ML/day)_Max                 -0.0861        -0.0334                294
+Discharge (Cumecs)_Max                 -0.0861        -0.0334                294
+Rainfall (mm)_Total                    -0.0856        -0.1027                294
+Discharge (Cumecs)_Min                 -0.0647        +0.0158                294
+Discharge (ML/day)_Min                 -0.0647        +0.0158                294
+Water Temp (Deg. C)_Max                +0.0316        +0.0604                288
+Level (Metres)_Max                     -0.0283        +0.1267                286
+
+[Target: E Conduct. (us/cm)_Min]
+Other Variable                       Pearson r   Spearman rho    Sample Size (N)
+--------------------------------------------------------------------------------
+Rainfall (mm)_Total                    -0.3876        -0.4176                294
+Level (Metres)_Max                     -0.3750        -0.3068                286
+Volume ML_Total                        -0.3227        -0.4340                294
+Discharge (ML/day)_Mean                -0.3201        -0.4342                294
+Discharge (Cumecs)_Mean                -0.3201        -0.4323                294
+Discharge (Cumecs)_Max                 -0.2810        -0.4534                294
+Discharge (ML/day)_Max                 -0.2810        -0.4534                294
+Level (Metres)_Min                     +0.2186        +0.1478                286
+Water Temp (Deg. C)_Max                -0.1528        -0.2019                288
+Discharge (Cumecs)_Min                 -0.1528        -0.0748                294
+Discharge (ML/day)_Min                 -0.1527        -0.0737                294
+Water Temp (Deg. C)_Min                +0.0990        +0.0075                288
+Water Temp (Deg. C)_Mean               -0.0325        -0.0856                288
+Level (Metres)_Mean                    +0.0278        -0.0363                286
+
+[Target: E Conduct. (us/cm)_Max]
+Other Variable                       Pearson r   Spearman rho    Sample Size (N)
+--------------------------------------------------------------------------------
+Water Temp (Deg. C)_Min                +0.2964        +0.3204                288
+Water Temp (Deg. C)_Mean               +0.2735        +0.3124                288
+Level (Metres)_Mean                    +0.2612        +0.3711                286
+Level (Metres)_Min                     +0.2527        +0.3208                286
+Level (Metres)_Max                     +0.1988        +0.4456                286
+Water Temp (Deg. C)_Max                +0.1772        +0.2541                288
+Rainfall (mm)_Total                    +0.1531        +0.1774                294
+Discharge (Cumecs)_Max                 +0.0724        +0.3161                294
+Discharge (ML/day)_Max                 +0.0724        +0.3161                294
+Volume ML_Total                        +0.0653        +0.3038                294
+Discharge (Cumecs)_Mean                +0.0624        +0.3060                294
+Discharge (ML/day)_Mean                +0.0624        +0.3037                294
+Discharge (ML/day)_Min                 -0.0049        +0.1077                294
+Discharge (Cumecs)_Min                 -0.0048        +0.1077                294
+
+[Target: pH (pH units)_Mean]
+Other Variable                       Pearson r   Spearman rho    Sample Size (N)
+--------------------------------------------------------------------------------
+Discharge (ML/day)_Min                 -0.3208        -0.0920                185
+Discharge (Cumecs)_Min                 -0.3207        -0.0926                185
+Rainfall (mm)_Total                    -0.3157        -0.3629                185
+Level (Metres)_Mean                    -0.3153        -0.3740                185
+Level (Metres)_Max                     -0.2942        -0.4596                185
+Water Temp (Deg. C)_Mean               -0.2614        -0.2600                176
+Water Temp (Deg. C)_Min                -0.2586        -0.2644                176
+Water Temp (Deg. C)_Max                -0.2372        -0.2168                176
+Level (Metres)_Min                     -0.1837        -0.2443                185
+Discharge (Cumecs)_Mean                -0.1820        -0.3946                185
+Discharge (ML/day)_Mean                -0.1820        -0.3932                185
+Volume ML_Total                        -0.1803        -0.3925                185
+Discharge (Cumecs)_Max                 -0.1356        -0.4166                185
+Discharge (ML/day)_Max                 -0.1356        -0.4170                185
+
+[Target: pH (pH units)_Min]
+Other Variable                       Pearson r   Spearman rho    Sample Size (N)
+--------------------------------------------------------------------------------
+Rainfall (mm)_Total                    -0.6240        -0.5469                185
+Level (Metres)_Max                     -0.5925        -0.5921                185
+Volume ML_Total                        -0.4403        -0.6379                185
+Water Temp (Deg. C)_Max                -0.4398        -0.3985                176
+Discharge (ML/day)_Mean                -0.4336        -0.6378                185
+Discharge (Cumecs)_Mean                -0.4336        -0.6384                185
+Water Temp (Deg. C)_Mean               -0.4211        -0.3977                176
+Water Temp (Deg. C)_Min                -0.3692        -0.3612                176
+Discharge (ML/day)_Min                 -0.3570        -0.2197                185
+Discharge (Cumecs)_Min                 -0.3570        -0.2198                185
+Level (Metres)_Mean                    -0.3298        -0.3009                185
+Discharge (Cumecs)_Max                 -0.3198        -0.6611                185
+Discharge (ML/day)_Max                 -0.3198        -0.6615                185
+Level (Metres)_Min                     -0.0281        -0.0718                185
+
+[Target: pH (pH units)_Max]
+Other Variable                       Pearson r   Spearman rho    Sample Size (N)
+--------------------------------------------------------------------------------
+Volume ML_Total                        +0.3534        +0.0993                185
+Discharge (ML/day)_Mean                +0.3520        +0.0995                185
+Discharge (Cumecs)_Mean                +0.3520        +0.0993                185
+Level (Metres)_Max                     +0.3031        -0.0224                185
+Rainfall (mm)_Total                    +0.2392        +0.0045                185
+Level (Metres)_Min                     -0.2209        -0.2859                185
+Discharge (Cumecs)_Max                 +0.2143        +0.0796                185
+Discharge (ML/day)_Max                 +0.2143        +0.0792                185
+Discharge (Cumecs)_Min                 +0.2113        +0.0704                185
+Discharge (ML/day)_Min                 +0.2112        +0.0694                185
+Water Temp (Deg. C)_Max                +0.1804        +0.1182                176
+Water Temp (Deg. C)_Mean               +0.1194        +0.0351                176
+Water Temp (Deg. C)_Min                +0.0383        -0.0478                176
+Level (Metres)_Mean                    +0.0152        -0.1424                185
+
+------------------------------------------------------------------------------------------
+3. COMPACT SUMMARY: EC Mean & pH Mean vs. Key Environmental Variables
+------------------------------------------------------------------------------------------
+Environmental Variable       |  EC Pearson  EC Spearman (N) |  pH Pearson  pH Spearman (N)
+------------------------------------------------------------------------------------------
+Rainfall (mm)_Total          |      -0.086       -0.103 (294) |      -0.316       -0.363 (185)
+Level (Metres)_Mean          |      +0.218       +0.214 (286) |      -0.315       -0.374 (185)
+Discharge (Cumecs)_Mean      |      -0.117       -0.033 (294) |      -0.182       -0.395 (185)
+Discharge (ML/day)_Mean      |      -0.117       -0.035 (294) |      -0.182       -0.393 (185)
+Volume ML_Total              |      -0.116       -0.035 (294) |      -0.180       -0.393 (185)
+Water Temp (Deg. C)_Mean     |      +0.162       +0.157 (288) |      -0.261       -0.260 (176)
+
+------------------------------------------------------------------------------------------
+4. COMPLETE PEARSON CORRELATION MATRIX (All Columns)
+------------------------------------------------------------------------------------------
+                                  E Conduct. (us/cm)_Mean  E Conduct. (us/cm)_Mean_Quality  E Conduct. (us/cm)_Min  E Conduct. (us/cm)_Min_Quality  E Conduct. (us/cm)_Max  E Conduct. (us/cm)_Max_Quality  pH (pH units)_Mean  pH (pH units)_Mean_Quality  pH (pH units)_Min  pH (pH units)_Min_Quality  pH (pH units)_Max  pH (pH units)_Max_Quality
+Rainfall (mm)_Total                               -0.0856                          -0.0160                 -0.3876                         -0.0160                  0.1531                         -0.0160             -0.3157                     -0.0241            -0.6240                    -0.0241             0.2392                    -0.0241
+Rainfall (mm)_Total_Quality                           NaN                           0.5847                     NaN                          0.5847                     NaN                          0.5847                 NaN                      0.4553                NaN                     0.4553                NaN                     0.4553
+Level (Metres)_Mean                                0.2184                          -0.7039                  0.0278                         -0.7039                  0.2612                         -0.7039             -0.3153                     -0.6436            -0.3298                    -0.6436             0.0152                    -0.6436
+Level (Metres)_Mean_Quality                       -0.2353                           0.2776                 -0.2214                          0.2776                 -0.1828                          0.2776              0.0428                      0.2578             0.0980                     0.2578            -0.0642                     0.2578
+Level (Metres)_Min                                 0.3131                          -0.7349                  0.2186                         -0.7349                  0.2527                         -0.7349             -0.1837                     -0.6590            -0.0281                    -0.6590            -0.2209                    -0.6590
+Level (Metres)_Min_Quality                        -0.2353                           0.2776                 -0.2214                          0.2776                 -0.1828                          0.2776              0.0428                      0.2578             0.0980                     0.2578            -0.0642                     0.2578
+Level (Metres)_Max                                -0.0283                          -0.2947                 -0.3750                         -0.2947                  0.1988                         -0.2947             -0.2942                     -0.2708            -0.5925                    -0.2708             0.3031                    -0.2708
+Level (Metres)_Max_Quality                        -0.2353                           0.2776                 -0.2214                          0.2776                 -0.1828                          0.2776              0.0428                      0.2578             0.0980                     0.2578            -0.0642                     0.2578
+Discharge (Cumecs)_Mean                           -0.1175                          -0.0710                 -0.3201                         -0.0710                  0.0624                         -0.0710             -0.1820                     -0.0767            -0.4336                    -0.0767             0.3520                    -0.0767
+Discharge (Cumecs)_Mean_Quality                    0.2596                          -0.3118                  0.1505                         -0.3118                  0.2990                         -0.3118             -0.1077                     -0.3493            -0.1289                    -0.3493            -0.0358                    -0.3493
+Discharge (Cumecs)_Min                            -0.0647                          -0.0104                 -0.1528                         -0.0104                 -0.0048                         -0.0104             -0.3207                     -0.0631            -0.3570                    -0.0631             0.2113                    -0.0631
+Discharge (Cumecs)_Min_Quality                     0.2596                          -0.3118                  0.1505                         -0.3118                  0.2990                         -0.3118             -0.1077                     -0.3493            -0.1289                    -0.3493            -0.0358                    -0.3493
+Discharge (Cumecs)_Max                            -0.0861                          -0.0738                 -0.2810                         -0.0738                  0.0724                         -0.0738             -0.1356                     -0.0444            -0.3198                    -0.0444             0.2143                    -0.0444
+Discharge (Cumecs)_Max_Quality                     0.2596                          -0.3118                  0.1505                         -0.3118                  0.2990                         -0.3118             -0.1077                     -0.3493            -0.1289                    -0.3493            -0.0358                    -0.3493
+Discharge (ML/day)_Mean                           -0.1175                          -0.0710                 -0.3201                         -0.0710                  0.0624                         -0.0710             -0.1820                     -0.0767            -0.4336                    -0.0767             0.3520                    -0.0767
+Discharge (ML/day)_Mean_Quality                    0.2596                          -0.3118                  0.1505                         -0.3118                  0.2990                         -0.3118             -0.1077                     -0.3493            -0.1289                    -0.3493            -0.0358                    -0.3493
+Discharge (ML/day)_Min                            -0.0647                          -0.0103                 -0.1527                         -0.0103                 -0.0049                         -0.0103             -0.3208                     -0.0630            -0.3570                    -0.0630             0.2112                    -0.0630
+Discharge (ML/day)_Min_Quality                     0.2596                          -0.3118                  0.1505                         -0.3118                  0.2990                         -0.3118             -0.1077                     -0.3493            -0.1289                    -0.3493            -0.0358                    -0.3493
+Discharge (ML/day)_Max                            -0.0861                          -0.0738                 -0.2810                         -0.0738                  0.0724                         -0.0738             -0.1356                     -0.0444            -0.3198                    -0.0444             0.2143                    -0.0444
+Discharge (ML/day)_Max_Quality                     0.2596                          -0.3118                  0.1505                         -0.3118                  0.2990                         -0.3118             -0.1077                     -0.3493            -0.1289                    -0.3493            -0.0358                    -0.3493
+Volume ML_Total                                   -0.1157                          -0.0702                 -0.3227                         -0.0702                  0.0653                         -0.0702             -0.1803                     -0.0777            -0.4403                    -0.0777             0.3534                    -0.0777
+Volume ML_Total_Quality                            0.2596                          -0.3118                  0.1505                         -0.3118                  0.2990                         -0.3118             -0.1077                     -0.3493            -0.1289                    -0.3493            -0.0358                    -0.3493
+Water Temp (Deg. C)_Mean                           0.1624                           0.0257                 -0.0325                          0.0257                  0.2735                          0.0257             -0.2614                     -0.0074            -0.4211                    -0.0074             0.1194                    -0.0074
+Water Temp (Deg. C)_Mean_Quality                  -0.3357                           0.9683                 -0.2142                          0.9683                 -0.3435                          0.9683              0.0095                      0.7516             0.0441                     0.7516            -0.0685                     0.7516
+Water Temp (Deg. C)_Min                            0.2486                          -0.0750                  0.0990                         -0.0750                  0.2964                         -0.0750             -0.2586                     -0.1118            -0.3692                    -0.1118             0.0383                    -0.1118
+Water Temp (Deg. C)_Min_Quality                   -0.3357                           0.9683                 -0.2142                          0.9683                 -0.3435                          0.9683              0.0095                      0.7516             0.0441                     0.7516            -0.0685                     0.7516
+Water Temp (Deg. C)_Max                            0.0316                           0.1226                 -0.1528                          0.1226                  0.1772                          0.1226             -0.2372                      0.0981            -0.4398                     0.0981             0.1804                     0.0981
+Water Temp (Deg. C)_Max_Quality                   -0.3357                           0.9683                 -0.2142                          0.9683                 -0.3435                          0.9683              0.0095                      0.7516             0.0441                     0.7516            -0.0685                     0.7516
+
+------------------------------------------------------------------------------------------
+5. COMPLETE SPEARMAN CORRELATION MATRIX (All Columns)
+------------------------------------------------------------------------------------------
+                                  E Conduct. (us/cm)_Mean  E Conduct. (us/cm)_Mean_Quality  E Conduct. (us/cm)_Min  E Conduct. (us/cm)_Min_Quality  E Conduct. (us/cm)_Max  E Conduct. (us/cm)_Max_Quality  pH (pH units)_Mean  pH (pH units)_Mean_Quality  pH (pH units)_Min  pH (pH units)_Min_Quality  pH (pH units)_Max  pH (pH units)_Max_Quality
+Rainfall (mm)_Total                               -0.1027                          -0.0038                 -0.4176                         -0.0038                  0.1774                         -0.0038             -0.3629                     -0.0316            -0.5469                    -0.0316             0.0045                    -0.0316
+Rainfall (mm)_Total_Quality                           NaN                           0.5597                     NaN                          0.5597                     NaN                          0.5597                 NaN                      0.5512                NaN                     0.5512                NaN                     0.5512
+Level (Metres)_Mean                                0.2143                          -0.7108                 -0.0363                         -0.7108                  0.3711                         -0.7108             -0.3740                     -0.7267            -0.3009                    -0.7267            -0.1424                    -0.7267
+Level (Metres)_Mean_Quality                        0.2171                          -0.0694                  0.1047                         -0.0694                  0.2848                         -0.0694             -0.0913                     -0.2359            -0.0021                    -0.2359            -0.1239                    -0.2359
+Level (Metres)_Min                                 0.2742                          -0.7310                  0.1478                         -0.7310                  0.3208                         -0.7310             -0.2443                     -0.7415            -0.0718                    -0.7415            -0.2859                    -0.7415
+Level (Metres)_Min_Quality                         0.2171                          -0.0694                  0.1047                         -0.0694                  0.2848                         -0.0694             -0.0913                     -0.2359            -0.0021                    -0.2359            -0.1239                    -0.2359
+Level (Metres)_Max                                 0.1267                          -0.5474                 -0.3068                         -0.5474                  0.4456                         -0.5474             -0.4596                     -0.5584            -0.5921                    -0.5584            -0.0224                    -0.5584
+Level (Metres)_Max_Quality                         0.2171                          -0.0694                  0.1047                         -0.0694                  0.2848                         -0.0694             -0.0913                     -0.2359            -0.0021                    -0.2359            -0.1239                    -0.2359
+Discharge (Cumecs)_Mean                           -0.0328                          -0.2437                 -0.4323                         -0.2437                  0.3060                         -0.2437             -0.3946                     -0.1653            -0.6384                    -0.1653             0.0993                    -0.1653
+Discharge (Cumecs)_Mean_Quality                    0.2425                          -0.5008                  0.1064                         -0.5008                  0.3415                         -0.5008             -0.1410                     -0.6452            -0.1190                    -0.6452            -0.0949                    -0.6452
+Discharge (Cumecs)_Min                             0.0158                          -0.1888                 -0.0748                         -0.1888                  0.1077                         -0.1888             -0.0926                     -0.0931            -0.2198                    -0.0931             0.0704                    -0.0931
+Discharge (Cumecs)_Min_Quality                     0.2425                          -0.5008                  0.1064                         -0.5008                  0.3415                         -0.5008             -0.1410                     -0.6452            -0.1190                    -0.6452            -0.0949                    -0.6452
+Discharge (Cumecs)_Max                            -0.0334                          -0.2399                 -0.4534                         -0.2399                  0.3161                         -0.2399             -0.4166                     -0.1677            -0.6611                    -0.1677             0.0796                    -0.1677
+Discharge (Cumecs)_Max_Quality                     0.2425                          -0.5008                  0.1064                         -0.5008                  0.3415                         -0.5008             -0.1410                     -0.6452            -0.1190                    -0.6452            -0.0949                    -0.6452
+Discharge (ML/day)_Mean                           -0.0352                          -0.2465                 -0.4342                         -0.2465                  0.3037                         -0.2465             -0.3932                     -0.1675            -0.6378                    -0.1675             0.0995                    -0.1675
+Discharge (ML/day)_Mean_Quality                    0.2425                          -0.5008                  0.1064                         -0.5008                  0.3415                         -0.5008             -0.1410                     -0.6452            -0.1190                    -0.6452            -0.0949                    -0.6452
+Discharge (ML/day)_Min                             0.0158                          -0.1887                 -0.0737                         -0.1887                  0.1077                         -0.1887             -0.0920                     -0.0927            -0.2197                    -0.0927             0.0694                    -0.0927
+Discharge (ML/day)_Min_Quality                     0.2425                          -0.5008                  0.1064                         -0.5008                  0.3415                         -0.5008             -0.1410                     -0.6452            -0.1190                    -0.6452            -0.0949                    -0.6452
+Discharge (ML/day)_Max                            -0.0334                          -0.2397                 -0.4534                         -0.2397                  0.3161                         -0.2397             -0.4170                     -0.1676            -0.6615                    -0.1676             0.0792                    -0.1676
+Discharge (ML/day)_Max_Quality                     0.2425                          -0.5008                  0.1064                         -0.5008                  0.3415                         -0.5008             -0.1410                     -0.6452            -0.1190                    -0.6452            -0.0949                    -0.6452
+Volume ML_Total                                   -0.0349                          -0.2483                 -0.4340                         -0.2483                  0.3038                         -0.2483             -0.3925                     -0.1691            -0.6379                    -0.1691             0.0993                    -0.1691
+Volume ML_Total_Quality                            0.2425                          -0.5008                  0.1064                         -0.5008                  0.3415                         -0.5008             -0.1410                     -0.6452            -0.1190                    -0.6452            -0.0949                    -0.6452
+Water Temp (Deg. C)_Mean                           0.1575                           0.0648                 -0.0856                          0.0648                  0.3124                          0.0648             -0.2600                      0.0001            -0.3977                     0.0001             0.0351                     0.0001
+Water Temp (Deg. C)_Mean_Quality                  -0.2544                           0.9466                 -0.1179                          0.9466                 -0.3136                          0.9466              0.0255                      0.7712             0.0094                     0.7712             0.0181                     0.7712
+Water Temp (Deg. C)_Min                            0.2057                           0.0004                  0.0075                          0.0004                  0.3204                          0.0004             -0.2644                     -0.0781            -0.3612                    -0.0781            -0.0478                    -0.0781
+Water Temp (Deg. C)_Min_Quality                   -0.2544                           0.9466                 -0.1179                          0.9466                 -0.3136                          0.9466              0.0255                      0.7712             0.0094                     0.7712             0.0181                     0.7712
+Water Temp (Deg. C)_Max                            0.0604                           0.1255                 -0.2019                          0.1255                  0.2541                          0.1255             -0.2168                      0.0771            -0.3985                     0.0771             0.1182                     0.0771
+Water Temp (Deg. C)_Max_Quality                   -0.2544                           0.9466                 -0.1179                          0.9466                 -0.3136                          0.9466              0.0255                      0.7712             0.0094                     0.7712             0.0181                     0.7712
