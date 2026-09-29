@@ -18,6 +18,6 @@ Volume ML_Total              |      -0.329       -0.403 (343) |      +0.212     
 Water Temp (Deg. C)_Mean     |      -0.046       -0.036 (342) |      +0.008       -0.021 (286)
 
 
-In this case the Spearman correlation is preferred as it reduces the effect of outliers. Overall we can claim that a higher dischardge has a significant correlation with the pH (that is the pH rises with more rainfall). The pH at Kenbula has been consistently acidic, highlighting there is a significant acidificication onogin due presumably to the mine  
+In this case the Spearman correlation is preferred as it reduces the effect of outliers. Overall we can claim that a higher dischardge has a significant correlation with the pH (that is the pH rises with more rainfall). The pH at Kenbula has been consistently acidic at ~3.5 to 4, highlighting there is a significant acidification ongoing due presumably to the mine. The positive correlation with water level, volume and discharge is interpreted as a dilution effect, that is the H+ ions concentration simply drops relative with the volume. 
 
 <img width="4170" height="2661" alt="ph_trends_by_location" src="https://github.com/user-attachments/assets/ceb6e3d2-45a2-4be8-9ce2-5867ce93c11a" />
