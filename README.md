@@ -27,6 +27,8 @@ The hydrochemical analyses (bottle) suggest a major event correlated with the re
 
 <img width="1405" height="3313" alt="ph_elements_stacked_Kenbula" src="https://github.com/user-attachments/assets/b9aa2b46-9215-4c5e-a4d3-bfbd4879c467" />
 
+
+The limited data show that some elements build up in the water at different istants, suggesting some elements might anticipate a potential large AMD occurrence.  Geochemical and rainfall data has been integrated already to outline a predictive framework of AMD in Mt Morgan mine (Cozzolino, 2017). 
 ## Which factors control sudden AMD altering the downstream catchement surface water pH?
 
 Which locations in the Mt Morgan mine are might be more susceptible to AMD and which rainfall threshold (either concetratated in a flash flood or over weeks/months) might be responsible.
