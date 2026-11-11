@@ -26,3 +26,7 @@ In this case the Spearman correlation is preferred as it reduces the effect of o
 The hydrochemical analyses (bottle) suggest a major event correlated with the release of sulphate and iron, which strongly indicates a significant pyrite oxidation event occurred in a short time, or rather a quick release of Fe and sulphate of previously oxidised sulphide (most likely pyrite and/or chalcopyrite as indicated by the increased Cu concentration). The limited data suggest a huge potential of fast acidification of downstream water.
 
 <img width="1405" height="3313" alt="ph_elements_stacked_Kenbula" src="https://github.com/user-attachments/assets/b9aa2b46-9215-4c5e-a4d3-bfbd4879c467" />
+
+## Which factors control sudden AMD altering the downstream catchement surface water pH?
+
+Which locations in the Mt Morgan mine are might be more susceptible to AMD and which rainfall threshold (either concetratated in a flash flood or over weeks/months) might be responsible.
